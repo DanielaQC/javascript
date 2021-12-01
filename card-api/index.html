@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main id="main">
+        <div class="select-character">
+            <select class="select" name="characters" id="change-characters">
+                <option select disabled value="all">Select a character</option>
+                <option value="all">All characters</option>
+            </select>
+        </div>
+        <hr>
+        <div class="cards" id="card"></div>
+    </main>
+
+    <template id="template-cards">
+        <div class="card-body">
+            <img src="" alt="" class="card-img" id="img-card">
+            <h2 id="title-card">Name</h2>
+            <p id="p-card-gender">Gender</p>
+            <p id="p-card-status">Dead</p>
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>

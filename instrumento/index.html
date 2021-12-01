@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <section class="section_info_title">
+            <h1>Bienvenido</h1>
+            <p>Nombre: Daniela Quintero castillo.<br>
+            Ficha: 2250076</p>
+        </section>
+        <section class="section_info_buttons">
+            <p>Elige una opcion para generar la card</p>
+            <button class="button_generate" id="button_generate1">1</button>
+            <button class="button_generate" id="button_generate3">3</button>
+            <button class="button_generate" id="button_generate9">9</button>
+            <button class="button_generate" id="button_generate12">12</button>
+        </section>
+        <section class="section_info_cards">
+            <p>Ingrese otro numero y presiona enter para generar</p>
+            <input type="number" class="input_generate" id="input_generate">
+            <div class="cards" id="card">
+
+            </div>
+        </section>
+    </main>
+
+    <template id="template_cards">
+        <div class="card_body">
+            <img src="" alt="" class="img_card" id="img_card">
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>
